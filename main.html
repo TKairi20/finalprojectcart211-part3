@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Prediction Experiment - Profile</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+
+    
+<header>
+    <h1><a href="index.html">PREDICTION EXPERIMENT</a></h1>
+
+    <div class="menu">
+        <button class="menu-button" onclick="toggleMenu()">
+            ☰
+        </button>
+
+        <nav id="navigation">
+            <a href="main.html">Profile</a>
+            <a href="main.html">Prediction</a>
+            <a href="main.html">Advertisements</a>
+            <a href="main.html">Data Loop</a>
+            <a href="main.html">Surprise the Algorithm</a>
+            <a href="main.html">Who Benefits?</a>
+            <a href="main.html">Final Report</a>
+        </nav>
+    </div>
+</header>
+
+    <main class="content">
+
+        <h1>Digital Profile</h1>
+
+        <p>
+            Based on your answers, the experiment has created
+            a behavioural profile.
+        </p>
+
+        <section class="profile">
+
+            <div class="profile-photo">
+                <img src="images/default.jpg" alt="Profile placeholder" class="profile-image">
+            </div>
+
+            <div class="profile-text">
+                <h2>The Digital Explorer</h2>
+
+                <p>
+                  This is a digital profile created based on your answers.
+                  It represents how a platform can group your online information
+                  to create an online persona.
+                </p>
+
+                <h3>Your attributes</h3>
+
+                <ul>
+                    <li>Daily online activity</li>
+                    <li>Content preferences</li>
+                    <li>Discovery habits</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <h2>Explore the experiment</h2>
+
+        <p>Choose a section to discover more about your own data.</p>
+
+        <div class="future-pages">
+
+            <div class="future-box">
+                <h3>Prediction</h3>
+                <p>What might you do next?</p>
+                <a href="main.html" class="button">Go</a>
+            </div>
+
+            <div class="future-box">
+                <h3>Advertisements</h3>
+                <p>What content attracts you?</p>
+                <a href="main.html" class="button">Go</a>
+            </div>
+
+            <div class="future-box">
+                <h3>Data loop</h3>
+                <p>How does the cycle continue?</p>
+                <a href="main.html" class="button">Go</a>
+            </div>
+
+            <div class="future-box">
+                <h3>Surprise the algorithm</h3>
+                <p>Can you make an unexpected choice?</p>
+                <a href="main.html" class="button">Go</a>
+            </div>
+
+            <div class="future-box">
+                <h3>Who benefits?</h3>
+                <p>Who uses your information?</p>
+                <a href="main.html" class="button">Go</a>
+            </div>
+
+            <div class="future-box">
+                <h3>Final report</h3>
+                <p>See what the experiment discovered.</p>
+                <a href="main.html" class="button">Go</a>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Tasha Pakita Kanzi | CART 211 <span>Page 4 / 4</span></p>
+    </footer>
+</body>
+
+<script>
+    function toggleMenu() {
+        var menu = document.getElementById("navigation");
+
+        if (menu.style.display === "block") {
+            menu.style.display = "none";
+        } else {
+            menu.style.display = "block";
+        }
+    }
+</script>
+
+</html>
